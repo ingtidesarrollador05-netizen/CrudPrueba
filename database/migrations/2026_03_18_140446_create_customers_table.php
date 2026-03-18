@@ -18,7 +18,7 @@ return new class extends Migration
             $table->char('last_name', 50);
             $table->char('address', 80)->nullable();
             $table->date('birthday')->nullable();
-            $table->char('phone_number', 16)->nullable();
+            $table->char('phone_number', 50)->nullable();
             $table->char('email', 100)->nullable();
             $table->timestamps();
         });
