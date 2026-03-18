@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
 
-     <h1 class="text-xl font-semibold text-gray-900 flex justify-center ">Add New Model</h1>
+     <h1 class="text-xl font-semibold text-gray-900 flex justify-center ">Agregar nuevo modelo</h1>
     
     
      <div class="flex items-center justify-center">

@@ -52,11 +52,11 @@
                             </select>
                         </div>
                         <div>
-                            <label class="block text-sm font-bold">Quantity</label>
+                            <label class="block text-sm font-bold">Cantidad</label>
                             <input type="number" name="quantity" min="1" class="w-full border-gray-300 rounded" required>
                         </div>
                         <div>
-                            <label class="block text-sm font-bold">Price (Unit)</label>
+                            <label class="block text-sm font-bold">Precio (Uni)</label>
                             <input type="number" name="price" class="w-full border-gray-300 rounded" placeholder="Price will be saved" required>
                         </div>
                     </div>
