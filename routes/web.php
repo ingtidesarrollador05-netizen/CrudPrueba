@@ -6,7 +6,8 @@ use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\PayModeController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ProductController;
-
+use App\Http\Controllers\InvoiceController;
+use App\Http\Controllers\DetailController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -25,7 +26,8 @@ Route::middleware('auth')->group(function () {
     Route::resource('pay_mode', PayModeController::class );
     Route::resource('categories', CategoryController::class );
     Route::resource('products', ProductController::class );
-
+    Route::resource('invoices', InvoiceController::class);
+    Route::resource('details', DetailController::class)->only(['update', 'destroy']);
 });
 
 require __DIR__.'/auth.php';
